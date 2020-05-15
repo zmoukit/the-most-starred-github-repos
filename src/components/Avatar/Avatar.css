@@ -1,0 +1,10 @@
+.avatar {
+  text-align: center;
+  height: 250px;
+}
+
+.avatar img {
+  height: 100%;
+  box-sizing: border-box;
+  border-radius: 5px;
+}

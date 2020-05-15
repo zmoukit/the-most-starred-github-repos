@@ -1,0 +1,19 @@
+.repos-list {
+  padding: 1rem;
+}
+
+.repos-list li {
+  padding: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  border-width: 0.2rem;
+  border-radius: 8px;
+}
+
+.repos-list img {
+  border-radius: 8px;
+}
+
+.repos-list button {
+  margin-right: 5px;
+}
