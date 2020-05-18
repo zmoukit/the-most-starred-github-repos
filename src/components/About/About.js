@@ -38,6 +38,8 @@ const About = () => (
             were created in the last 30 days.
           </Card.Text>
           <Button
+            href="https://www.linkedin.com/in/zakaria-moukit-93314550/"
+            target="_blank"
             variant="primary"
             style={{
               display: "block",
@@ -45,7 +47,7 @@ const About = () => (
               marginRight: "auto"
             }}
           >
-            Go somewhere
+            More About Zakaria
           </Button>
         </Card.Body>
       </Card>

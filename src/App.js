@@ -4,6 +4,7 @@ import { Route, Switch } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Repos from "./containers/Repos/Repos";
 import About from "./components/About/About";
+import NotFound from "./components/NotFound/NotFound";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Switch>
           <Route path="/" exact component={Repos} />
           <Route path="/about" component={About} />
+          <Route path="*" component={NotFound} />
         </Switch>
       </div>
     </div>
