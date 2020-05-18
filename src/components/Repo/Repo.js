@@ -1,6 +1,8 @@
 import React from "react";
 import { Media, Button, Badge } from "react-bootstrap";
 import PropTypes from "prop-types";
+import "./Repo.css";
+
 const Repo = props => (
   <Media as="li">
     <img
@@ -11,7 +13,9 @@ const Repo = props => (
       alt={props.title}
     />
     <Media.Body>
-      <h4>{props.title}</h4>
+      <a href={props.htmlUrl} className="repo-title" target="_black">
+        {props.title}
+      </a>
       <p>{props.desc}</p>
       <p>
         <Button variant="dark">

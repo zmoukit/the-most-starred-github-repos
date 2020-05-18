@@ -1,0 +1,9 @@
+a.repo-title {
+  font-size: 20px;
+  color: #212529;
+}
+
+a.repo-title:hover,
+a.repo-title:active {
+  color: #6c757d;
+}

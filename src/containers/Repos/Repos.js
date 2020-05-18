@@ -70,6 +70,7 @@ class Repos extends Component {
         ) : (
           <ul className="list-unstyled">
             {this.state.repos.map(repo => {
+              console.log(repo);
               return (
                 <Repo
                   key={repo.id}
@@ -79,6 +80,7 @@ class Repos extends Component {
                   stars={this.starsFormatter(repo.stargazers_count, 1)}
                   issues={repo.has_issues ? repo.open_issues_count : 0}
                   owner={repo.owner}
+                  htmlUrl={repo.html_url}
                 />
               );
             })}
